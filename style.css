@@ -1,0 +1,36 @@
+
+*::before,
+*::after{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family: monospace;
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-weight: 900;
+}
+.mybuttons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+}
+button{
+    background-color: transparent;
+    padding: 10px 25px;
+    border: 0.5px solid black;
+    font-weight: 700;
+    font-size: 18px;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+}
+
